@@ -1,0 +1,229 @@
+
+STATEMENT: 
+
+ID:1
+
+
+(v = 20;(for(v=0;v<3;v=v + 1) fork((print(v);v = v + 1));print(v * 10)))
+
+STACK: 
+(v = 20;(for(v=0;v<3;v=v + 1) fork((print(v);v = v + 1));print(v * 10)))
+
+
+SYMTABLE: 
+Empty
+
+
+OUTPUT: 
+Empty
+
+
+FILETABLE: 
+Empty
+
+
+HEAP: 
+Empty
+
+
+
+STATEMENT: 
+
+ID:1
+
+
+(v = 20;(for(v=0;v<3;v=v + 1) fork((print(v);v = v + 1));print(v * 10)))
+
+STACK: 
+(for(v=0;v<3;v=v + 1) fork((print(v);v = v + 1));print(v * 10))
+v = 20
+
+
+SYMTABLE: 
+Empty
+
+
+OUTPUT: 
+Empty
+
+
+FILETABLE: 
+Empty
+
+
+HEAP: 
+Empty
+
+
+
+STATEMENT: 
+
+ID:1
+
+
+(v = 20;(for(v=0;v<3;v=v + 1) fork((print(v);v = v + 1));print(v * 10)))
+
+STACK: 
+(for(v=0;v<3;v=v + 1) fork((print(v);v = v + 1));print(v * 10))
+v = 20
+
+
+SYMTABLE: 
+Empty
+
+
+OUTPUT: 
+Empty
+
+
+FILETABLE: 
+Empty
+
+
+HEAP: 
+Empty
+
+
+
+STATEMENT: 
+
+ID:1
+
+
+(v = 20;(for(v=0;v<3;v=v + 1) fork((print(v);v = v + 1));print(v * 10)))
+
+STACK: 
+(for(v=0;v<3;v=v + 1) fork((print(v);v = v + 1));print(v * 10))
+
+
+SYMTABLE: 
+v --> 20
+
+
+OUTPUT: 
+Empty
+
+
+FILETABLE: 
+Empty
+
+
+HEAP: 
+Empty
+
+
+
+STATEMENT: 
+
+ID:1
+
+
+(v = 20;(for(v=0;v<3;v=v + 1) fork((print(v);v = v + 1));print(v * 10)))
+
+STACK: 
+(for(v=0;v<3;v=v + 1) fork((print(v);v = v + 1));print(v * 10))
+
+
+SYMTABLE: 
+v --> 20
+
+
+OUTPUT: 
+Empty
+
+
+FILETABLE: 
+Empty
+
+
+HEAP: 
+Empty
+
+
+
+STATEMENT: 
+
+ID:1
+
+
+(v = 20;(for(v=0;v<3;v=v + 1) fork((print(v);v = v + 1));print(v * 10)))
+
+STACK: 
+print(v * 10)
+for(v=0;v<3;v=v + 1) fork((print(v);v = v + 1))
+
+
+SYMTABLE: 
+v --> 20
+
+
+OUTPUT: 
+Empty
+
+
+FILETABLE: 
+Empty
+
+
+HEAP: 
+Empty
+
+
+
+STATEMENT: 
+
+ID:1
+
+
+(v = 20;(for(v=0;v<3;v=v + 1) fork((print(v);v = v + 1));print(v * 10)))
+
+STACK: 
+print(v * 10)
+for(v=0;v<3;v=v + 1) fork((print(v);v = v + 1))
+
+
+SYMTABLE: 
+v --> 20
+
+
+OUTPUT: 
+Empty
+
+
+FILETABLE: 
+Empty
+
+
+HEAP: 
+Empty
+
+
+
+STATEMENT: 
+
+ID:1
+
+
+(v = 20;(for(v=0;v<3;v=v + 1) fork((print(v);v = v + 1));print(v * 10)))
+
+STACK: 
+print(v * 10)
+(v = 0;while(v < 3) (fork((print(v);v = v + 1));v = v + 1) )
+
+
+SYMTABLE: 
+v --> 20
+
+
+OUTPUT: 
+Empty
+
+
+FILETABLE: 
+Empty
+
+
+HEAP: 
+Empty
+
+
